@@ -53,6 +53,17 @@ topology/       - Network topology diagram and description
 configurations/ - Switch configuration files
 verification/   - Verification screenshots and command outputs
 
+Packet Tracer Project File
+
+The .pkt file contains the complete network topology and configurations developed using Cisco Packet Tracer.
+
+How to access:
+
+1. Download the .pkt file from this repository.
+2. Open Cisco Packet Tracer.
+3. Go to File → Open.
+4. Select the downloaded .pkt file to explore the network topology and configurations.
+
 AUTHOR
 ------
 Malik Sayyad
