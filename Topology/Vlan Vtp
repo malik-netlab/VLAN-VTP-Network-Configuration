@@ -1,0 +1,25 @@
+NETWORK TOPOLOGY
+
+The network consists of four Cisco 2960 switches connected in a hierarchical topology, with six end devices connected to the central switch.
+
+SWITCH CONFIGURATION
+- Switch0 (S1): Configured as VTP Server.
+- Switch1 (S2): Configured as VTP Transparent.
+- Switch2 (S3): Configured as VTP Client.
+- Switch3 (S4): Configured as VTP Client.
+
+VLAN SEGMENTATION
+Three VLANs are configured to separate devices based on departments:
+
+- VLAN 10 – Students: PC0 and PC1.
+- VLAN 20 – Staff: PC2 and Laptop0.
+- VLAN 30 – HOD: Laptop1 and PC3.
+
+NETWORK CONNECTIVITY
+- All six end devices are connected to Switch0.
+- Switch0 is connected to Switch1 through a trunk link.
+- Switch1 connects to Switch2 and Switch3 through separate trunk links.
+- VTP is used to demonstrate VLAN management and advertisement forwarding across the switching network.
+
+NOTE
+The topology diagram shows the physical connections and intended switch roles. Trunk operation and VTP propagation should be verified separately in Packet Tracer before being reported as successful.
